@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+
+    $('body').css('display', 'none');
+
+    $('body').fadeIn(2000);
+
     var clickCount = 0;
 
     var Houses = {
@@ -26,10 +31,14 @@ $(document).ready(function() {
                 $(".result_personality").append("hello slytherin");
 
 
-            }else{ $(".result_personality").append("hello else");
-}
+            }else {
+                $(".result_personality").append("hello else");
+                }
+
+
 
             $("#result").show();
+
 
 
 
@@ -47,8 +56,6 @@ $(document).ready(function() {
         $(this).hide();
         addHouse('gryffindor');
         hideimages();
-
-
     });
     $("img.s").click(function() {
         $(this).hide();

@@ -4,9 +4,10 @@
     display: none;
 }
 body {
-    background-color: rgb(249, 249, 247);
+    background-color: white;
     text-align: center;
     font-family: 'Indie Flower', cursive;
+    border: dashed #000000 10px
 }
 
 .spiralContainer {
