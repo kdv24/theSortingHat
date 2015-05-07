@@ -1,0 +1,15 @@
+Pseudocode:
+
+0.5 Create a global variable called clickCount, and set it to 0. After the count reaches 5, then hide the images.
+
+1. Create an associative array with all four houses, and set initial value to 0.
+{
+    Gryffindor = 0;
+    Ravenclaw = 0;
+    Hufflepuff = 0;
+    Slytherin = 0;
+}
+
+Each number is equal to the number of clicks of the image.
+
+2. After each person clicks an image, the count goes up.
