@@ -33,4 +33,4 @@ Rank each item, based on which personality it fits:
 31.   R  R      flower bouquet
 32.  H R H H  jar of paint brushes
 33.   G R      mallet
-34.  GG H      baseball glove and ball
+34.  GG H   S G G r    baseball glove and ball
