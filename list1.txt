@@ -1,36 +1,36 @@
 Rank each item, based on which personality it fits:
 
-1.  R G G H      book
-2.  H       waterpot
-3.  R G S     owl
-4.   G H H       mallard duck
-5.    G H      karate guy
-6.    H       scissors
-7.      R    royal crown
+1.  R G G H G R H H book
+2.  H G    waterpot
+3.  R G S R H R H    owl  RAVENCLAW
+4.   G H H  h h r r      mallard duck
+5.  G H H R    karate guy
+6.  H       scissors
+7.  R H H   royal crown
 8.          glass jar of nails
 9.    H      purple flower
-10.   G      sheep
-11.         old time video camera
+10.   G  R  H     sheep
+11.   G  R  old time video camera
 12.   R      orange flower
 13.         pliers
-14.   R H      yellow roses
-15.  G H       pool balls
-16.   S      swimmer
-17.    H H     anvil
+14.   R H H R     yellow roses
+15.  G H  G R     pool balls
+16.   S H R    swimmer
+17.    H H  R H G  anvil
 18.         hands
-19. P S G     pig with flowers
-20.         gymnast
+19. P S G H G H H H R   pig with flowers
+20.  R       gymnast
 21.  R       fortune cookie
-22.         potted flower
-23.  G       saw
+22.  R R        potted flower raven
+23.  G H R       saw
 24.    G     runners
 25.         construction marker
-26.         pigeon
+26.   H H H     pigeon
 27.         ladybug
 28.   H S     hourglass
-29.  GRHHH S     lemon
-30.  HRGG      wires/twinkly lights
-31.   R      flower bouquet
-32.  H R      jar of paint brushes
-33.   G      mallet
-34.  GG H     baseball glove and ball
+29.  GRHHH S r h r     lemon h wins
+30.  HRGGHR    wires/twinkly lights
+31.   R  R      flower bouquet
+32.  H R H H  jar of paint brushes
+33.   G R      mallet
+34.  GG H      baseball glove and ball
