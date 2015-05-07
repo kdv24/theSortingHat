@@ -11,7 +11,7 @@ body {
 
 .spiralContainer {
   border-radius: 50%;
-  
+
   overflow:hidden;
   margin:20px;
 
@@ -27,21 +27,7 @@ body {
   -o-animation-play-state: paused;
   animation-play-state: paused;
 }
-.spiral {
-  width:200px;
-  height:200px;
-  border-radius: 50%;
-  background-image: url(http://farm7.staticflickr.com/6115/6319704650_0a2bd0dcef_o.jpg);
-  background-repeat:no-repeat;
-  background-position:50% 50%;
 
-
-  -webkit-animation: spin 6s linear 0s infinite normal;
-  -moz-animation: spin 6s linear 0s infinite normal;
-  -ms-animation: spin 6s linear 0s infinite normal;
-  -o-animation: spin 6s linear 0s infinite normal;
-  animation: spin 6s linear 0s infinite normal;
-}
 .spiralContainer:hover {
   -webkit-animation-play-state: running;
   -moz-animation-play-state: running;
@@ -68,8 +54,8 @@ body {
 @-o-keyframes spin {
   0% { -o-transform: rotate(360deg); }
   100% { -o-transform: rotate(0deg); }
-=======
+
 img {
     padding: 15px;
->>>>>>> master
+
 }
