@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 #result {
     display: none;
@@ -59,4 +59,16 @@ body {
 img {
     padding: 15px;
 
+}
+
+.gryffindor_traits{
+    display: none;
+}
+
+.ravenclaw_traits{
+    display: none;
+}
+
+ul {
+    list-style: none;
 }

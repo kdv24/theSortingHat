@@ -21,21 +21,32 @@ $(document).ready(function() {
 
 
 
-            if((Houses.gryffindor > Houses.ravenclaw)&&(Houses.gryffindor > Houses.hufflepuff) && (Houses.gryffindor > Houses.slytherin)) {
-                $(".result_personality").append("hello gryffindor");
+            if ((Houses.gryffindor > Houses.ravenclaw) && (Houses.gryffindor > Houses.hufflepuff) && (Houses.gryffindor > Houses.slytherin)) {
+                $(".result_personality").append("Hello Gryffindor");
+                $(".gryffindor_traits").show();
+
             } else if ((Houses.ravenclaw > Houses.gryffindor) && (Houses.ravenclaw > Houses.hufflepuff) && (Houses.ravenclaw > Houses.slytherin))  {
-                $(".result_personality").append("hello ravenclaw");
+                $(".result_personality").append("Hello Ravenclaw");
+                $(".ravenclaw_traits").show();
+
             } else if ((Houses.hufflepuff> Houses.gryffindor) && (Houses.hufflepuff > Houses.ravenclaw) && (Houses.hufflepuff > Houses.slytherin))  {
-                $(".result_personality").append("hello hufflepuff");
+                $(".result_personality").append("Hello Hufflepuff");
+                // $(".hufflepuff").show();
+
             } else if ((Houses.slytherin > Houses.gryffindor) && (Houses.slytherin > Houses.ravenclaw) && (Houses.slytherin > Houses.hufflepuff))  {
-                $(".result_personality").append("hello slytherin");
+                $(".result_personality").append("Hello Slytherin");
 
 
+<<<<<<< HEAD
             }else {
                 $(".result_personality").append("hello else");
                 }
 
 
+=======
+            }else{ $(".result_personality").append("Hello Else");
+}
+>>>>>>> 844dde34689eb88c84e0134e8e83e55bf8f7d9f4
 
             $("#result").show();
 
