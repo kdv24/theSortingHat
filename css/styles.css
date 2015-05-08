@@ -7,7 +7,7 @@ body {
     background-color: white;
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    border: dashed #000000 10px
+    border: dashed #000000 10px;
 }
 
 .spiralContainer {
@@ -55,9 +55,10 @@ body {
 @-o-keyframes spin {
   0% { -o-transform: rotate(360deg); }
   100% { -o-transform: rotate(0deg); }
+    }
 
 img {
-    padding: 15px;
+    /*padding: 15px;*/
 
 }
 
@@ -69,6 +70,20 @@ img {
     display: none;
 }
 
+.hufflepuff_traits {
+    display: none;
+}
+
+.slytherin_traits{
+    display: none;
+}
+
+
 ul {
     list-style: none;
+    color: red;
+}
+
+.trait_title {
+    font-size: 4.0em;
 }
