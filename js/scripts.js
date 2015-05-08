@@ -24,18 +24,27 @@ $(document).ready(function() {
             if ((Houses.gryffindor > Houses.ravenclaw) && (Houses.gryffindor > Houses.hufflepuff) && (Houses.gryffindor > Houses.slytherin)) {
                 $(".result_personality").append("Hello Gryffindor");
                 $(".gryffindor_traits").show();
+                var audio = document.getElementById("audiog");
+                audio.play();
+
 
             } else if ((Houses.ravenclaw > Houses.gryffindor) && (Houses.ravenclaw > Houses.hufflepuff) && (Houses.ravenclaw > Houses.slytherin))  {
                 $(".result_personality").append("Hello Ravenclaw");
                 $(".ravenclaw_traits").show();
+                var audio = document.getElementById("audiorav");
+                audio.play();
 
             } else if ((Houses.hufflepuff> Houses.gryffindor) && (Houses.hufflepuff > Houses.ravenclaw) && (Houses.hufflepuff > Houses.slytherin))  {
                 $(".result_personality").append("Hello Hufflepuff");
                 $(".hufflepuff_traits").show();
+                var audio = document.getElementById("audiohuff");
+                audio.play();
 
             } else if ((Houses.slytherin > Houses.gryffindor) && (Houses.slytherin > Houses.ravenclaw) && (Houses.slytherin > Houses.hufflepuff))  {
                 $(".result_personality").append("Hello Slytherin");
                 $(".slytherin_traits").show();
+                var audio = document.getElementById("audiosly");
+                audio.play();
 
 
             }else{ $(".result_personality").append("Hello Else");
