@@ -24,9 +24,6 @@ $(document).ready(function() {
             if ((Houses.gryffindor > Houses.ravenclaw) && (Houses.gryffindor > Houses.hufflepuff) && (Houses.gryffindor > Houses.slytherin)) {
                 $(".result_personality").append("Hello Gryffindor");
                 $(".gryffindor_traits").show();
-                // $(".ravenclaw_traits").hide();
-                // $(".hufflepuff_traits").hide();
-                // $(".slytherin_traits").hide();
 
             } else if ((Houses.ravenclaw > Houses.gryffindor) && (Houses.ravenclaw > Houses.hufflepuff) && (Houses.ravenclaw > Houses.slytherin))  {
                 $(".result_personality").append("Hello Ravenclaw");
