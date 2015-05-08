@@ -62,6 +62,11 @@ img {
 
 }
 
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .gryffindor_traits{
     display: none;
 }
@@ -82,8 +87,19 @@ img {
 ul {
     list-style: none;
     color: red;
+    font-size: 1.5em;
 }
 
 .trait_title {
-    font-size: 4.0em;
+    font-size: 2.0em;
+}
+
+h4 {
+    margin-left: 0px;
+    font-size: 2.0em;
+
+}
+
+li {
+    list-style: none;
 }

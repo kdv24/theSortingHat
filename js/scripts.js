@@ -22,19 +22,19 @@ $(document).ready(function() {
 
 
             if ((Houses.gryffindor > Houses.ravenclaw) && (Houses.gryffindor > Houses.hufflepuff) && (Houses.gryffindor > Houses.slytherin)) {
-                $(".result_personality").append("Hello Gryffindor");
+                $(".result_personality").append("Hello Gryffindor! ");
                 $(".gryffindor_traits").show();
 
             } else if ((Houses.ravenclaw > Houses.gryffindor) && (Houses.ravenclaw > Houses.hufflepuff) && (Houses.ravenclaw > Houses.slytherin))  {
-                $(".result_personality").append("Hello Ravenclaw");
+                $(".result_personality").append("Hello Ravenclaw! ");
                 $(".ravenclaw_traits").show();
 
             } else if ((Houses.hufflepuff> Houses.gryffindor) && (Houses.hufflepuff > Houses.ravenclaw) && (Houses.hufflepuff > Houses.slytherin))  {
-                $(".result_personality").append("Hello Hufflepuff");
+                $(".result_personality").append("Hello Hufflepuff! ");
                 $(".hufflepuff_traits").show();
 
             } else if ((Houses.slytherin > Houses.gryffindor) && (Houses.slytherin > Houses.ravenclaw) && (Houses.slytherin > Houses.hufflepuff))  {
-                $(".result_personality").append("Hello Slytherin");
+                $(".result_personality").append("Hello Slytherin! ");
                 $(".slytherin_traits").show();
 
 
