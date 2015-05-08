@@ -37,16 +37,8 @@ $(document).ready(function() {
                 $(".result_personality").append("Hello Slytherin");
 
 
-<<<<<<< HEAD
-            }else {
-                $(".result_personality").append("hello else");
-                }
-
-
-=======
             }else{ $(".result_personality").append("Hello Else");
 }
->>>>>>> 844dde34689eb88c84e0134e8e83e55bf8f7d9f4
 
             $("#result").show();
 
