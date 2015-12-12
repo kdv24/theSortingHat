@@ -2,10 +2,10 @@
 
 ####Date: May 6th, 2015 | Bojana Skarich, Erica Cha, Kelly de Vries & Abeer Khakwani
 
-This app will allow user to select the images that appeal to them and it will reveal what personality type they are.
+This app allows the users to select images that appeal to them and reveals the matching Sorting Hat personality type.
 
 #Setup and Use
-- Clone this git repository (https://github.com/AbeerKhakwani/theSortingHat.git)
+- Clone this git repository (https://github.com/kdv24/theSortingHat.git)
 - Open terminal, set up localhost server, open the project folder (ispy)
 - In the terminal, enter (python -m SimpleHTTPServer)
 - On web browser, enter (localost:8000) to display
